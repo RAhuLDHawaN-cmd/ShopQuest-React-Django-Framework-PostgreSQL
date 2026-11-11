@@ -1,0 +1,38 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+*.db
+.Python
+venv/
+.venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+
+# Django generated files
+staticfiles/
+media/uploads/
+
+# Node / Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editors and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
